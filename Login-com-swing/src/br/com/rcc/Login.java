@@ -30,6 +30,7 @@ public class Login extends JFrame {
 				try {
 					Login frame = new Login();
 					frame.setVisible(true);
+					frame.setTitle("LOGIN");
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
