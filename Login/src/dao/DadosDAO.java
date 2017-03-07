@@ -18,8 +18,6 @@ public class DadosDAO {
         Connection ct = ConnectionFactory.getConectando();
         PreparedStatement cmd = ct.prepareStatement(sql.toString());
         
-
-        
         cmd.setString(1, dados.getNome());
         cmd.setString(2, dados.getSenha());
 
